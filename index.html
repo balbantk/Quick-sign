@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signature</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="top">
+            <div class="block">
+                <p>Tect colot picker</p>
+                <input type="color"   id="colorPicker" class="form-control">
+            </div>
+            <div class="block">
+                <p>Background</p>
+                <input type="color"   id="canvasColor" class="form-control">
+            </div>
+            <div class="block">
+                <p>Font Size</p>
+                <select name="font-size" id="fontSize">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="20">20px</option>
+                    <option value="30">30px</option>
+                    <option value="40">40px</option>
+                    <option value="50">50px</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <canvas class="canvas" id="myCanvas" width="800px" height="500px"></canvas>
+        </div>
+        <div class="bottom">
+            <button type="button" class="btn btn-danger" id="clearBtn">Clear</button>
+            <button type="button" class="btn btn-success" id="saveBtn">Save & Download</button>
+            <button type="button" class="btn btn-warning" id="retrieveBtn">Retrieve save signature</button>
+        </div>
+    </div>
 </body>
 </html>
