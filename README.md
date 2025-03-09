@@ -19,7 +19,7 @@ A simple web-based drawing application that allows users to draw on a canvas, ch
 ## Installation & Usage
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/Quick-sign.git
+   git clone https://github.com/balbantk/Quick-sign.git
    ```
 2. Open `index.html` in a web browser.
 3. Start drawing on the canvas.
